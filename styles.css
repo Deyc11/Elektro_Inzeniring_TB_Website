@@ -108,6 +108,10 @@ button.btn:hover {
   transform: translateX(-50%);
   transition: max-height 0.5s ease;
 }
+.add-project-wrapper .title{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 
 .add-project-wrapper.active {
   max-height: 300px;
@@ -115,7 +119,8 @@ button.btn:hover {
 
 /* Additional styles for the form inputs and buttons */
 .add-project-header, .add-project-body, .add-project-footer {
-  padding: 20px;
+  padding: 5px;
+ 
 }
 
 .add-project-input input {
@@ -126,7 +131,27 @@ button.btn:hover {
   border-radius: 5px;
 }
 
-/* Responsive Adjustments */
+.add-project-input select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem; 
+}
+
+
+.add-project-input select option {
+    color: #333; 
+
+
+.add-project-input select:hover {
+    border-color: #a3222f; 
+    cursor: pointer; 
+}
+
 @media (max-width: 768px) {
     .right-menu {
         font-size: 14px;

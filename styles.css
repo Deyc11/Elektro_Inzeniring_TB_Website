@@ -13,14 +13,8 @@ nav.navbar {
     align-items: center;
 }
 
-.burger-menu {
-    font-size: 24px;
-    cursor: pointer;
-}
-
 .home-icon {
     font-size: 24px;
-    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -41,17 +35,17 @@ nav.navbar {
 }
 
 .sign-out:hover {
-    color: grey;
+    color: #8fe28a;
 }
 
-/* Control Panel Styles */
+/* Box Style*/
 .window-box {
     background-color: #f8f9fa; /* Light background for window */
     border-radius: 8px;
 }
 
 h3 {
-    color: #c42c3c; /* Matches the navbar color */
+    color: #c42c3c;
     margin-bottom: 15px;
 }
 
@@ -63,6 +57,7 @@ h3 {
 
 .list-group-item:hover {
     background-color: #f1f1f1;
+    cursor: pointer;
 }
 
 button.btn {
